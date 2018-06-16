@@ -30,6 +30,7 @@
             android:layout_alignLeft="@+id/textView1"
             android:layout_below="@+id/textView1"
             android:text="@string/nazwa"
+            android:lines="2"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -48,6 +49,7 @@
             android:layout_alignLeft="@+id/textView2"
             android:layout_below="@+id/textView2"
             android:text="@string/adres"
+            android:lines="2"
             android:textAppearance="?android:attr/textAppearanceMedium" />
      
         <TextView
@@ -60,4 +62,21 @@
             android:text="TextView" />
 
         <!-- TODO dodać textview na telefon -->
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:text="Telefon: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <TextView
+            android:id="@+id/telefon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_toRightOf="@id/textView4"
+            android:text="TextView"/>
 </RelativeLayout>

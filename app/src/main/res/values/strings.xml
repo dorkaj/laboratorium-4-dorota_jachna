@@ -7,6 +7,10 @@
     <string name="nazwa">Nazwa: </string>
     <string name="adres">Adres: </string>
     <!-- TODO dodać pole do przechowania tłumaczenia 'telefon' -->
+    <string name="telefon">Telefon:</string>
+
+    <string name="order_name_asc">Sortuj po nazwie rosnąco</string>
+    <string name="order_name_desc">Sortuj po nazwie malejąco</string>
 
     <string name="order_id_asc">Sortuj po ID rosnąco</string>
     <string name="order_id_desc">Sortuj po ID malejąco</string>
